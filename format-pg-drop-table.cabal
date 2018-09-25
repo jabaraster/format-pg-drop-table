@@ -1,0 +1,21 @@
+name:                format-pg-drop-table
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/jabaraster/format-pg-drop-table.git
+license:             BSD2
+license-file:        LICENSE
+author:              Jabaraster
+maintainer:          ah@jabara.info
+copyright:           Jabaraster
+category:            Database
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable format-pg-drop-sql
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , split
